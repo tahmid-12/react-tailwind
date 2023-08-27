@@ -1,4 +1,4 @@
-import { Analytics, Hero, Navbar, Newsletter } from './components'
+import { Analytics, Cards, Hero, Navbar, Newsletter } from './components'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
       <Hero />
       <Analytics />
       <Newsletter />
+      <Cards />
     </>
   )
 }
